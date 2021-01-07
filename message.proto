@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package edatstan;
+
+option go_package = ".;edatstan";
+
+message Msg {
+  string id = 1;
+  map<string, string> headers = 2;
+  bytes payload = 3;
+}
