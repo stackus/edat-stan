@@ -6,7 +6,7 @@
 
 ## Usage Example
 
-    import "github.com/stack/edat-stan"
+    import "github.com/stackus/edat-stan"
 
     conn, _ := stan.Connect(clusterID, clientID, options)
 
